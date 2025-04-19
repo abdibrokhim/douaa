@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
-from browser_use import Agent, Browser, Controller
+from browser_use import Agent, Browser, Controller, BrowserConfig
 import os
 import asyncio
 from pathlib import Path
@@ -48,7 +48,11 @@ async def upload_file(index: int, path: str, browser, available_file_paths: list
         return {"error": f'Failed to upload file to index {index}: {str(e)}'}
 
 async def main():
-    browser = Browser()
+    browser = Browser(
+        config=BrowserConfig(
+            headless=False,
+        )
+    )
     
     agent = Agent(
         task=upload_images,
