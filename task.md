@@ -59,4 +59,7 @@
 ## Step 14: Submit Listing
 1. **Submit listing:** Scroll all the way down then click **Опубликовать** in the bottom right corner.
 
+## Step 15: Click on Publish without any Ads
+1. **Publish:** Click on **Опубликовать** in the bottom right corner.
+
 ## DONE! ##
