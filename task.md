@@ -5,8 +5,8 @@
 ## Step 1: Access OLX.uz and Sign In  
 1. **Open the site:** Navigate to [olx.uz](https://www.olx.uz).
 2. **Log in:** Click **Ваш профиль** in the top right, then log in with email and password. To do it just enter these credentials:
-- EMAIL="zetltdgo@gmail.com"
-- PASSWORD="$bestgoods4U"
+- EMAIL=""
+- PASSWORD=""
 
 ## Step 2: Start Listing Process
 1. **Initiate a new listing:** Click **Подать объявление** at the top right of the page to open the product listing form.
